@@ -97,7 +97,7 @@ nav {
   margin-left: 9%;
 }
 
-.hero__title > p {
+.green-title {
   color: var(--mint-color);
   font-family: "Yellowtail", serif;
   font-weight: 400;
@@ -132,4 +132,60 @@ nav {
 
 #hero > img {
   position: absolute;
+  pointer-events: none;
+}
+
+.onion {
+  top: 0;
+  left: 0;
+}
+
+.starwberry {
+  top: 53px;
+  left: 31%;
+}
+
+.leaves-tr {
+  top: 0;
+  right: 0;
+}
+
+.leaves-br {
+  bottom: 0;
+  right: 0;
+}
+
+.leaves-bl {
+  bottom: 0;
+  left: 0;
+}
+
+#sale {
+  padding-block: 100px;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.products__title {
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+}
+
+.main-title {
+  font-size: 3.125rem;
+  color: var(--primary-color);
+}
+
+.card {
+  width: 20%;
+  background-color: var(--search-color);
+  padding: 1rem 2rem;
+  border: 2px solid var(--border-color);
+  border-radius: 20px;
+}
+
+.card__body > img {
+  width: 100%;
 }
