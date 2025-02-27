@@ -11,10 +11,14 @@
 
 nav {
   display: flex;
-  width: 90%;
+  padding: 20px;
   margin: 40px auto;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: var(--white-color);
+  z-index: 2;
 }
 
 .nav__items {
@@ -83,9 +87,10 @@ nav {
   background-image: url(../images/hero-bg.png);
   background-repeat: no-repeat;
   background-position: center;
-  height: 90vh;
+  height: calc(100vh - 73px);
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .hero__title {
@@ -123,4 +128,8 @@ nav {
 .hero__title button:hover {
   transform: translateY(-5px);
   box-shadow: 0px 4px 8px 2px #00000052;
+}
+
+#hero > img {
+  position: absolute;
 }
