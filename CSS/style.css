@@ -166,6 +166,71 @@ nav {
   gap: 2rem;
   justify-content: center;
 }
+#About-Us {
+  background-image: url(/images/aboutbgg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: var(--search-color);
+  height: 100vh;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.about__title {
+  padding: 2%;
+}
+.about__title h2 {
+  color: var(--primary-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 3rem;
+}
+.about__title h3 {
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.blabal {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.icon-text {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.ICONS {
+  background-color: var(--white-color);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.about__p {
+  color: var(--primary-color);
+  font-size: 1.125rem;
+}
+.about__title button {
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--white-color);
+  border: none;
+  padding: 20px 30px;
+  gap: 10px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin-top: 30px;
+}
+.about__title button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 8px 2px #00000052;
+}
 
 .products__title {
   margin: auto;
