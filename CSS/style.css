@@ -166,7 +166,8 @@ nav {
   gap: 2rem;
   justify-content: center;
 }
-#About-Us {
+
+#about-Us {
   background-image: url(/images/aboutbgg.png);
   background-repeat: no-repeat;
   background-position: left;
@@ -176,33 +177,36 @@ nav {
   justify-content: right;
   align-items: center;
 }
+
 .about__title {
   padding: 2%;
 }
+
 .about__title h2 {
-  color: var(--primary-color);
   padding-top: 20px;
   padding-bottom: 20px;
-  font-weight: 700;
-  font-size: 3rem;
 }
+
 .about__title h3 {
   color: var(--primary-color);
   font-weight: 700;
   font-size: 1.5rem;
 }
-.blabal {
+
+.about__desc {
   display: flex;
   flex-direction: column;
   padding: 10px;
 }
+
 .icon-text {
   padding-top: 15px;
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.ICONS {
+
+.icons {
   background-color: var(--white-color);
   padding: 10px;
   border-radius: 20px;
@@ -212,6 +216,7 @@ nav {
   color: var(--primary-color);
   font-size: 1.125rem;
 }
+
 .about__title button {
   background-color: var(--primary-color);
   display: flex;
