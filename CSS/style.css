@@ -450,3 +450,82 @@ nav {
   cursor: pointer;
   transition: transform 0.3s;
 }
+.footer-top {
+  display: flex;
+  margin-top: 122px;
+  justify-content: space-evenly;
+}
+
+.footer-left h4 {
+  margin-bottom: 32px;
+  font-size: 30px;
+}
+
+.footer-left {
+  text-align: end;
+}
+
+.footer-left p {
+  color: var(--text-color);
+  margin-top: 5px;
+}
+
+.footer-phone {
+  margin-top: 15px;
+}
+
+.footer-adress {
+  margin-top: 15px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.footer-center > p {
+  margin-top: 23px;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.footer-center > img {
+  margin-left: 70px;
+}
+
+.footer-img {
+  margin-top: 50px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.footer-right p {
+  margin-top: 20px;
+  color: var(--text-color);
+}
+
+.footer-pages {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+hr {
+  margin-top: 138px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin: 17px;
+}
+
+.footer_line {
+  height: 300px;
+  width: 1px;
+  background-color: #d4d4d4;
+}
+
+.footer__line {
+  height: 300px;
+  width: 1px;
+  background-color: #d4d4d4;
+}
